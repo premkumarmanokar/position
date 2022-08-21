@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+.section {
+  background-color: grey;
+  border: 4px solid greenyellow;
+  border-radius: 40px;
+  height: 90vh;
+  width: 90vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.box {
+  height: 70vh;
+  width: 20vw;
+  background-color: white;
+  border: 2px solid black;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+}
+.sbox {
+  height: 30vh;
+  width: 18vw;
+  background-color: grey;
+  border: 2px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+.red {
+  background-color: red;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+.green {
+  background-color: rgb(5, 236, 5);
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.blue {
+  background-color: rgb(55, 4, 240);
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+.yellow {
+  background-color: rgb(255, 239, 8);
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+.orange {
+  background-color: orange;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+}
+.tomato {
+  background-color: tomato;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+.box1 .sbox1 .red {
+  position: absolute;
+  bottom: 0;
+  left: 30px;
+}
+.box1 .sbox1 .green {
+  position: absolute;
+  bottom: 0;
+  left: 90px;
+}
+.box1 .sbox1 .blue {
+  position: absolute;
+  bottom: 0;
+  left: 140px;
+}
+.box1 .sbox1 .yellow {
+  position: absolute;
+  bottom: 0;
+  left: 180px;
+}
+.box1 .sbox2 .orange {
+  position: absolute;
+  left: 83px;
+  top: 0;
+}
+.box1 .sbox2 .tomato {
+  position: absolute;
+  left: 85px;
+  bottom: 0;
+}
+/* box two styling starts here */
+.box2 .sbox2 .orange {
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+}
+.box2 .sbox2 .tomato {
+  position: absolute;
+  top: 15px;
+  left: 0;
+}
+
+/* box three styling starts here */
+.box3 .sbox1 .red {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.box3 .sbox1 .green {
+  position: absolute;
+  right: 80px;
+  top: 0;
+}
+.box3 .sbox1 .blue {
+  position: absolute;
+  right: 150px;
+  top: 0;
+}
+.box3 .sbox1 .yellow {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.box3 .sbox2 .orange {
+  position: absolute;
+  left: 0;
+  top: 31px;
+}
+.box3 .sbox2 .tomato {
+  position: absolute;
+  left: 0;
+  bottom: 31px;
+}
+
+/* box four styling starts here */
+
+.box4 .sbox1 .red {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .box4 .sbox1 .green {
+    position: absolute;
+    right: 80px;
+    top: 0;
+  }
+  .box4 .sbox1 .blue {
+    position: absolute;
+    right: 150px;
+    top: 0;
+  }
+  .box4 .sbox1 .yellow {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  
+  .box4 .sbox2 .orange {
+    position: absolute;
+    left: 0;
+    top: 31px;
+  }
+  .box4 .sbox2 .tomato {
+    position: absolute;
+    left: 0;
+    bottom: 31px;
+  }
+  
